@@ -2,10 +2,25 @@ This project, **TenderAI**, is an intelligence pipeline designed for the **Centr
 
 ### 📂 Folder Structure
 
-Plaintext
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   jha-2022/crpf-saitenderassist/  ├── backend/                # FastAPI Python Backend  │   ├── uploads/            # Local storage for uploaded PDFs/Images  │   ├── app.py              # Main API and Mock OCR/AI Logic  │   ├── init_db.py          # Database schema and sample data initialization  │   ├── main.py             # Alternative entry point for tender stats/listing  │   └── tenders.db          # SQLite Relational Database  ├── frontend/               # React + Vite Frontend  │   ├── public/             # Static assets (logos)  │   ├── src/  │   │   ├── components/     # Layout components (Navbar, Sidebar, Dashboard)  │   │   ├── pages/          # Functional views (Ingestion, Reports, Rules)  │   │   ├── App.jsx         # Main routing and navigation logic  │   │   └── App.css         # UI/UX styling  │   ├── index.html          # HTML entry point  │   └── package.json        # Frontend dependencies (React 19, Vite 8)  └── .gitignore              # Project-wide ignore rules   `
-
+````
+    jha-2022/crpf-saitenderassist/
+├── backend/                # FastAPI Python Backend
+│   ├── uploads/            # Local storage for uploaded PDFs/Images
+│   ├── app.py              # Main API and Mock OCR/AI Logic
+│   ├── init_db.py          # Database schema and sample data initialization
+│   ├── main.py             # Alternative entry point for tender stats/listing
+│   └── tenders.db          # SQLite Relational Database
+├── frontend/               # React + Vite Frontend
+│   ├── public/             # Static assets (logos)
+│   ├── src/
+│   │   ├── components/     # Layout components (Navbar, Sidebar, Dashboard)
+│   │   ├── pages/          # Functional views (Ingestion, Reports, Rules)
+│   │   ├── App.jsx         # Main routing and navigation logic
+│   │   └── App.css         # UI/UX styling
+│   ├── index.html          # HTML entry point
+│   └── package.json        # Frontend dependencies (React 19, Vite 8)
+└── .gitignore              # Project-wide ignore rules
+````
 ### ⚙️ System Workflow Cycle
 
 The system processes procurement data through a **three-stage intelligence pipeline**:
