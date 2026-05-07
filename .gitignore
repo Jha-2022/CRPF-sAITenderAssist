@@ -1,0 +1,19 @@
+# Node
+node_modules/
+dist/
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Local DB and Uploads
+*.db
+backend/uploads/
+backend/tenders.db
+
+# Misc
+.DS_Store
+.vscode/
